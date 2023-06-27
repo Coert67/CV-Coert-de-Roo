@@ -1,0 +1,103 @@
+body{
+    background-color: skyblue;
+    padding: 10px;
+    
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid darkblue;
+    border-right: 1px solid darkblue;
+    background-color: blue;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: lightskyblue;
+    border-style: none;
+}
+h1{
+    margin-left: 100px;
+}
+div{
+    background-color: skyblue;
+    margin: 10px;
+    min-height: 100px;
+    min-width: 100px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+header{
+    padding: 5px;
+}
+footer{
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+p{
+    padding: 50px;
+}
+form{
+    background-color: skyblue;
+    padding: 50px;
+    min-height: 200px;
+    min-width: 100px;
+}
+input [type="text"], input [type="email"],textarea,button{
+    display: block;
+    margin: 15px 0px;
+}
+.tbl{
+    border: solid 2px;
+    border-color:  darkblue;
+    
+    padding: 15px;
+    background-color: rgb(205, 225, 242);
+    width: 800px;
+}
+.tbl th, .tbl td{
+    border:solid 1px rgb(187, 187, 253);
+    border-collapse: collapse;
+}
+.tbl th{
+    background-color: #8898da; 
+    text-align: left;
+}
+
+input[type="text"], input[type="email"], textarea, select{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px #a9f4e6;
+}
+textarea{
+    height: 100px;
+    padding: 5px 4px;
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 150px;
+}
+button{
+    margin-left: 150px;
+    width: 100px;
+    background-color: lightblue;
+    border-radius: 4px;
+}
+button:active{
+    background-color: lightskyblue;
+    color: white;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px blue;
+}
